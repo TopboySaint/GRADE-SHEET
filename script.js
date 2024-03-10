@@ -4,6 +4,7 @@ var soundPassD= new Audio('audio/70-years-old-man.mp3')
 var soundCredit= new Audio('audio/This-is-playing.mp3')
 var songB= new Audio('audio/E-shock-you-broda-shaggi.mp3')
 var songA= new Audio('audio/No-be-juju-be-that.mp3')
+var soundMumu= new Audio('audio/mumu-2-much.mp3')
 
 
 
@@ -30,5 +31,6 @@ function checkScore(){
         songA.play()
     } else {
         show.innerHTML= 'INVALID'
+        soundMumu.play()
     }
 }
