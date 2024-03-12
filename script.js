@@ -30,7 +30,7 @@ function checkScore(){
         show.innerHTML= 'A - Excellent'
         songA.play()
     } else {
-        show.innerHTML= 'INVALID'
+        show.innerHTML= 'INVALID INPUT'
         soundMumu.play()
     }
 }
