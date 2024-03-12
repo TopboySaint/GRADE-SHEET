@@ -11,7 +11,9 @@ var soundMumu= new Audio('audio/mumu-2-much.mp3')
 
 function checkScore(){
     var userScore = Number(score.value)
-    if (userScore >= 0 && userScore < 40){
+    if(userScore >= -10000000 && userScore < 1) {
+        show.innerHTML= 'INVALID INPUT'
+    }else if (userScore >= 0 && userScore < 40){
         show.innerHTML = "F - Fail"
         songFailure.play()
     } else if(userScore >= 40 && userScore < 46){
@@ -29,7 +31,7 @@ function checkScore(){
     } else if(userScore >= 70 && userScore <= 100) {
         show.innerHTML= 'A - Excellent'
         songA.play()
-    } else {
+    }else {
         show.innerHTML= 'INVALID INPUT'
         soundMumu.play()
     }
