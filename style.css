@@ -1,23 +1,20 @@
 
-body{
-    background-image: url(images/5501609ee45d514d1f2c4a63502045e2.gif);
-}
-
 .contain{
     padding-bottom: 20px;
     width: 700px;
     margin: auto;
     margin-top: 150px;
     border-radius: 20px;
-    background-size: cover;
-    box-shadow: 3px 3px whitesmoke;
+    background: whitesmoke;
+    box-shadow: 3px 3px blue;
 }
 
 .texthead{
-    color: whitesmoke;
+    color: blue;
     font-size: 35px;
     font-weight: 800;
     font-family: cursive;
+    border-left: 10px solid blue;
 }
 
 .bttn{
@@ -34,17 +31,19 @@ body{
     height: 50px;
     padding: 25px;
     border: none;
+    outline: none;
     background-color: whitesmoke;
-    border-bottom: 3px solid blue ;
+    border-bottom: 2px solid blue ;
 }
 
 #show{
-    border: 2px solid whitesmoke;
+    border: 2px solid blue;
     height: 50px;
     width: 220px;
     border-radius: 15px;
-    color: whitesmoke;
+    color: blue;
     font-family: 'Segoe UI', sans-serif;
     font-size: 20px;
+    font-weight: 500;
     /* padding: 50px; */
 }
